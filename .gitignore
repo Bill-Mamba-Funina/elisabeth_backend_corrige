@@ -1,0 +1,65 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+env/
+
+db.sqlite3
+*.sqlite3
+
+.vscode/
+.idea/
+
+*.log
+
+# Fichiers générés et documents privés
+
+media/
+payments/
+recu-paiement-*.pdf
+
+# Sauvegardes et anciens modèles
+
+backup_clients_*/
+
+# Configuration sensible
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Fichiers generes et documents prives
+
+media/
+payments/
+recu-paiement-*.pdf
+
+# Sauvegardes
+
+backup_clients_*/
+
+# Fichiers sensibles
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+venv/
+.venv/
